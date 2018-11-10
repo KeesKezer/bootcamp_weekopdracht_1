@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+
+  <body>
+
+    <button id="stylesheet1" onclick="swapStyleSheet('style.css');"> Default Theme </button>
+    <button id="stylesheet2" onclick="swapStyleSheet('style2.css');"> Sighted Theme </button>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="intro.html" id="about">Intro</a>
+      <a href="blog.html" id="blog">Blog</a>
+      <a href="projects.html" id="projects">Projects</a>
+      
+      
+    </div>
+
+    <h1> Contactformulier </h1>
+
+    <div id="formulier">
+      <form action="mailto:kkeijser@hotmailll.com" method="post" enctype="text/plain">
+        <label for="fname">voornaam</label><br>
+        <input type="text" id="fname" name="voornaam" placeholder="Richard.."><br>
+        <label for="lname">achternaam</label><br>
+        <input type="text" id="lname" name="achternaam" placeholder="Achterkant.."><br>
+        <label for="email">emailadres</label><br>
+        <input type="text" id="email" name="uw emailadres" placeholder="richy-rich@gmail.com.."><br>
+        <label for="lname">uw bericht</label><br>
+        <input type="text" id="bericht" name="bericht" placeholder=" Uw bericht hier .."><br>
+
+       
+        </select>
+      
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <footer>
+      <div id="myfooter" class="footer">
+        <a id="contactinfo">Contact</a>
+    
+      </div>
+    </footer>
+
+  </body>
+
+  
+    <script type="text/javascript" src="javascript.js"></script>
+
+</html>

@@ -1,0 +1,175 @@
+
+/*------------------------------------------ Achtergrond ------------------------------------------*/
+html{
+    font-size: 25px;
+}
+
+body{
+    background-image: url("file:///C:/Users/kees_/Desktop/bootcamp/week1/afbeeldingen/pc-grey.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+
+
+/*------------------------------------------ Stijl sidenav ------------------------------------------*/
+#mySidenav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; /* maakt element deels rond */
+    opacity: 0.7;
+    z-index: 10;
+}
+
+#mySidenav a:hover {
+    left: 0; /* laat side nav verschijnen */
+}
+
+
+#about {
+    top: 20px;
+    background-color:#555; /* Light Black */
+}
+
+#blog {
+    top: 80px;
+    background-color: #555; 
+}
+
+#projects {
+    top: 140px;
+    background-color: #555; 
+}
+
+#contact {
+    top: 200px;
+    background-color: #555;
+    po
+}
+
+#myfooter a {
+    position: fixed; /* positie blijft hetzelfde */
+    left: 0;
+    right: 0;
+    bottom: -40px; /*  deels verborgen footer */
+    transition: 0.3s; /* voegt transitie toe aan hover*/
+    padding: 1px; 
+    height: 60px;
+    
+    width: 100%; 
+    text-decoration: none; 
+    font-size: 18px; 
+    color: white; 
+    border-radius: 5px 5px 5px 5px; /* rondere footer */
+    opacity: 0.7;
+    z-index: 10;
+}
+
+#myfooter a:hover {
+    left: 0;
+    right: 0;
+    bottom: 0px;
+}
+ 
+ #contactinfo {
+  text-align: center;
+  background-color: #555;
+}
+/*------------------------------------------ algemene elementen stijl ------------------------------------------*/
+
+ 
+h1 {
+ color: white;
+ text-align: center;
+ opacity: 0.7;   
+}
+
+ul {
+  text-align: left;
+
+}
+#stylesheet1, #stylesheet2{
+    margin: auto;
+    display: block;
+}
+
+#blog-tekst {
+
+background-color: #555;
+float: left;
+margin: 8%;
+color: white;
+text-align: center;
+opacity: 0.9;
+border-radius: 5px;
+/*------------------------------------------email formulier ------------------------------------------*/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #555;;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#formulier {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    opacity: 0.9;
+    width: 50%;
+    margin: auto;
+}
+
+
+.column{
+background-color: #555;
+float: left;
+margin: 1%;
+width: 48%;
+color: white;
+text-align: center;
+opacity: 0.7;
+border-radius: 5px; 
+}
+
+.row:after { 
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ /*------------------------------------------  Responsive layout laat twee columns onder elkaar vallen ------------------------------------------*/
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
