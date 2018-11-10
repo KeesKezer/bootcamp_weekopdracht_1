@@ -9,8 +9,8 @@
 
   </head>
 
-  <body>
-        <button id="stylesheet1" onclick="swapStyleSheet('style.css');"> Default Theme </button>
+  <body class="theme1">
+    <button id="stylesheet1" onclick="swapStyleSheet('style.css');"> Default Theme </button>
     <button id="stylesheet2" onclick="swapStyleSheet('style2.css');"> Sighted Theme </button>
 
     <div id="mySidenav" class="sidenav">
@@ -20,7 +20,9 @@
       
       
     </div>
-    <h1> Introductie </h1>
+    <div class="animatie">
+      <h1> Introductie </h1>
+    </div>
     <div class="row"></div>
       <div class= "column">
       <h2> Introductie  </h2>
@@ -49,8 +51,15 @@
       </div>
     <footer>
       <div id="myfooter" class="footer">
-        <a id="contactinfo">Contact</a>
-    
+        <div class="footerContainer">
+          <h3>Contact</h3>
+          Straatnaam 1 <br />
+          1111aa plaats <br />
+          0123456789 <br />
+          <a href="mailto:test@test.nl">test@test.nl</a>
+
+      
+        </div>
       </div>
 
     </footer>
